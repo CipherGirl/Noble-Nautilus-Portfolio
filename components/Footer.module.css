@@ -1,9 +1,12 @@
 .social_container {
   background: #eee;
   padding: 25px 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-.content {
+.social_content {
   text-align: center;
 }
 
@@ -59,4 +62,76 @@
 
 .linkedin:hover {
   transform: translateY(-2px);
+}
+
+.links_content {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.blog {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+/* .blog:active {
+    background-color: #4968ad;
+} */
+
+.blog:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.about {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.about:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.projects {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.projects:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.programs {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.programs:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.faq {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.faq:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
 }
