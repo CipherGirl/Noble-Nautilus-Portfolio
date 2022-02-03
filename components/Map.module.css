@@ -1,7 +1,7 @@
 .map_h2 {
   text-transform: uppercase;
   font-size: 1rem;
-  padding: 20px;
+  padding: 30px;
   padding-left: 10px;
   text-align: center;
 }
@@ -11,20 +11,6 @@
   height: 60vh;
   padding: 5%;
 }
-
-/* .pin {
-  display: flex;
-  align-items: center;
-  width: 90px;
-  color: var(--main-blue);
-  height: 90px;
-} */
-
-/* .pin_icon {
-  font-size: 4rem;
-  width: 100px;
-  height: 80px;
-} */
 
 .pin_text {
   font-size: 1.3em;
@@ -50,4 +36,9 @@
     width: 50px;
     height: 50px;
   }
+}
+
+.image {
+    height: 45px;
+    width: 45px;
 }

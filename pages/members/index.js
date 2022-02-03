@@ -1,16 +1,17 @@
 import Map from "../../components/Map";
+import Dinu from "../../public/images/Dinu.ico"
 
 const location = [
   {
-    address: "Dinu Botan",
     lat: 47.4979,
     lng: 19.0402,
+    img: Dinu
   },
   {
-    address: "Member 2",
     lat: 33.6844,
     lng: 73.0479,
-  }
+    img: Dinu
+  },
 ];
 
 function MembersPage() {
