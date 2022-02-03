@@ -1,12 +1,18 @@
 import GoogleMapReact from "google-map-react";
 import classes from "./Map.module.css";
-import { Icon } from "@iconify/react";
-import locationIcon from "@iconify/icons-mdi/map-marker";
+import img from "../public/images/Dinu.ico";
 
-const LocationPin = ({ text }) => (
-  <div className={classes.pin}>
-    <Icon icon={locationIcon} className={classes.pin_icon} />
-    <p className={classes.pin_text}>{text}</p>
+const greatPlaceStyle = {
+  position: "absolute",
+  transform: "translate(-8%, -50%)",
+};
+
+const LocationPin = ({ image }) => (
+  <div
+    className={classes.pin}
+    style={greatPlaceStyle}
+  >
+    <img className={classes.image} src={image.src} alt="Image" />
   </div>
 );
 
@@ -14,7 +20,6 @@ export default function Map({ location, zoomLevel }) {
   return (
     <div className={classes.map}>
       <h2 className={classes.map_h2}>Locations of Pod members</h2>
-
       <div className={classes.google_map}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyDAO8JZFNKqFL51bkkz042RWNw90ficUbk" }}
@@ -22,11 +27,7 @@ export default function Map({ location, zoomLevel }) {
           defaultZoom={zoomLevel}
         >
           {location.map((loc) => (
-            <LocationPin
-              lat={loc.lat}
-              lng={loc.lng}
-              text={loc.address}
-            />
+            <LocationPin lat={loc.lat} lng={loc.lng} image={loc.img} />
           ))}
         </GoogleMapReact>
       </div>
