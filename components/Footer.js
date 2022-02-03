@@ -9,7 +9,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-export default function SocialFollow() {
+export default function Footer() {
   return (
     <div className={classes.social_container}>
       <div className={classes.social_content}>
