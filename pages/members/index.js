@@ -1,10 +1,17 @@
 import Map from "../../components/Map";
 
-const location = {
-  address: "1600 Amphitheatre Parkway, Mountain View, california.",
-  lat: 37.42216,
-  lng: -122.08427,
-};
+const location = [
+  {
+    address: "Dinu Botan",
+    lat: 47.4979,
+    lng: 19.0402,
+  },
+  {
+    address: "Member 2",
+    lat: 33.6844,
+    lng: 73.0479,
+  }
+];
 
 function MembersPage() {
     return (

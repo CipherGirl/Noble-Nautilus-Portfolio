@@ -12,16 +12,19 @@
   padding: 5%;
 }
 
-.pin {
+/* .pin {
   display: flex;
   align-items: center;
-  width: 180px;
+  width: 90px;
   color: var(--main-blue);
-}
+  height: 90px;
+} */
 
-.pin_icon {
+/* .pin_icon {
   font-size: 4rem;
-}
+  width: 100px;
+  height: 80px;
+} */
 
 .pin_text {
   font-size: 1.3em;
@@ -39,9 +42,12 @@
 
   .pin {
     width: 15vw;
+    height: 5vw;
   }
 
   .pin_icon {
     font-size: 10vw;
+    width: 50px;
+    height: 50px;
   }
 }
