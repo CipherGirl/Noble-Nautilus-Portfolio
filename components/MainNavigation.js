@@ -1,22 +1,22 @@
 import Link from "next/link";
 
-import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
   return (
-    <header className={classes.header}>
-      <div className={classes.logo}>
-        <Link href="/">NOBLE NAUTILUS</Link>
-      </div>
-      <nav>
-        <ul>
-          <li>
+    <header className="w-full h-20 flex justify-center absolute">
+      
+      <nav className="w-4/5 h-full flex justify-between items-center">
+        <div className="font-Cinzel font-bold text-xl">
+          <Link href="/">NOBLE NAUTILUS</Link>
+        </div>
+        <ul className="flex gap-x-5">
+          <li className="hover:font-bold">
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li className="hover:font-bold">
             <Link href="/members">Members</Link>
           </li>
-          <li>
+          <li className="hover:font-bold">
             <Link href="/projects">Projects</Link>
           </li>
         </ul>
