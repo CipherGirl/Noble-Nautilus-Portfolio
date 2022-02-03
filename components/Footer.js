@@ -62,7 +62,7 @@ export default function Footer() {
         <Link href="https://fellowship.mlh.io/#programs">
           <h1 className={classes.programs}>Programs</h1>
         </Link>
-        <Link href="https://mlh.io//faq">
+        <Link href="https://mlh.io/faq">
           <h1 className={classes.faq}>FAQ</h1>
         </Link>
       </div>

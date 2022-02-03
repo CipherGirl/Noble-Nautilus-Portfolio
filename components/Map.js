@@ -1,6 +1,5 @@
 import GoogleMapReact from "google-map-react";
 import classes from "./Map.module.css";
-import img from "../public/images/Dinu.ico";
 
 const greatPlaceStyle = {
   position: "absolute",
@@ -27,7 +26,7 @@ export default function Map({ location, zoomLevel }) {
           defaultZoom={zoomLevel}
         >
           {location.map((loc) => (
-            <LocationPin lat={loc.lat} lng={loc.lng} image={loc.img} />
+            <LocationPin key={location.loc} lat={loc.lat} lng={loc.lng} image={loc.img} />
           ))}
         </GoogleMapReact>
       </div>
