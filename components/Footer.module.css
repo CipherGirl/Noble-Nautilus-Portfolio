@@ -1,0 +1,62 @@
+.social_container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+.content {
+  text-align: center;
+}
+
+.youtube {
+  color: #eb3223;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+.youtube:hover {
+  transform: translateY(-2px);
+}
+
+.facebook {
+  color: #4968ad;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.facebook:hover {
+  transform: translateY(-2px);
+}
+
+.twitter {
+  color: #49a1eb;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.twitter:hover {
+  transform: translateY(-2px);
+}
+
+.instagram {
+  color: black;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.instagram:hover {
+  transform: translateY(-2px);
+}
+
+.linkedin {
+  color: #4968ad;
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.linkedin:hover {
+  transform: translateY(-2px);
+}
