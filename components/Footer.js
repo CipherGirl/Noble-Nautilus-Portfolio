@@ -12,8 +12,7 @@ import {
 export default function SocialFollow() {
   return (
     <div className={classes.social_container}>
-      <div className={classes.content}>
-        <h3>Social Follow</h3>
+      <div className={classes.social_content}>
         <Link href="https://www.youtube.com/c/Majorleaguehacking">
           <FontAwesomeIcon
             className={classes.youtube}
@@ -49,6 +48,26 @@ export default function SocialFollow() {
             size="2x"
           />
         </Link>
+      </div>
+      <div className={classes.links_content}>
+        <Link href="#">
+          <h1 className={classes.blog}>Blog</h1>
+        </Link>
+        <Link href="https://mlh.io/about">
+          <h1 className={classes.about}>About</h1>
+        </Link>
+        <Link href="#">
+          <h1 className={classes.projects}>Projects</h1>
+        </Link>
+        <Link href="https://fellowship.mlh.io/#programs">
+          <h1 className={classes.programs}>Programs</h1>
+        </Link>
+        <Link href="https://mlh.io//faq">
+          <h1 className={classes.faq}>FAQ</h1>
+        </Link>
+      </div>
+      <div>
+        <p class={classes.copyright}>MLH Fellowship © 2022</p>
       </div>
     </div>
   );
