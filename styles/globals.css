@@ -9,6 +9,12 @@ body {
   font-family: "Lato", sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
+  background-image: linear-gradient(
+    to left bottom,
+    rgb(199, 210, 254),
+    rgb(254, 202, 202),
+    rgb(254, 243, 199)
+  );
 }
 
 a {

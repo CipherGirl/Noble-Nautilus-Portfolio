@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function MainNavigation() {
   return (
-    <header className="w-full h-20 flex justify-center bg-white/60">
+    <header className="w-full h-20 flex justify-center bg-white/50">
       <nav className="w-4/5 h-full flex justify-between items-center">
         <div className="font-Cinzel font-bold text-xl">
           <Link href="/">NOBLE NAUTILUS</Link>
