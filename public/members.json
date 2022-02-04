@@ -7,40 +7,56 @@
   "program": "MLH Fellowship",
   "members": [
     {
+      "name": "Arsalan Khattak",
+      "location": "Islamabad, Pakistan",
+      "tagline": "Learn, build and open source",
+      "socials": {
+        "linkein": "khattakdev",
+        "github": "khattakdev"
+      },
+      "avatar": "./images/arsalan.jpeg"
+    },
+    {
       "name": "Hasna Hena Mow",
       "location": "Dhaka, Bangladesh",
-      "tagline": "I love Web Dev",
+      "tagline": "I love Ocean, Space and Web Development 🕸️",
+      "socials": {
+        "linkein": "hasna-hena-mow",
+        "github": "CipherGirl"
+      },
       "avatar": "/images/hasna.png"
     },
     {
-      "name": "Member 2",
+      "name": "Dinu Botan",
       "location": "The Planet Earth",
       "tagline": "I love Web Dev",
-      "avatar": "/images/avatar.png"
+      "avatar": "./images/Dinu.ico"
     },
     {
-      "name": "Member 3",
-      "location": "The Planet Earth",
-      "tagline": "I love Web Dev",
-      "avatar": "/images/avatar.png"
+      "name": "Dani Schuhman",
+      "location": "New Jersey, USA",
+      "tagline": "Go that way really fast, if something gets in your way, turn",
+      "avatar": "./images/dani.jpeg",
+      "socials": {
+        "linkein": "dani-schuhman",
+        "github": "dani8439"
+      }
     },
     {
-      "name": "Member 4",
-      "location": "The Planet Earth",
-      "tagline": "I love Web Dev",
-      "avatar": "/images/avatar.png"
+      "name": "Riya Elizabeth John",
+      "location": "Surat, India",
+      "tagline": "Really good at holding a clear vision of what I want and trust that it’s coming 🌻",
+      "avatar": "./images/riya.jpeg",
+      "socials": {
+        "linkein": "riya-elizabeth-john-3b57201ab",
+        "github": "Riyabelle25"
+      }
     },
     {
-      "name": "Member 5",
-      "location": "The Planet Earth",
-      "tagline": "I love Web Dev",
-      "avatar": "/images/avatar.png"
-    },
-    {
-      "name": "Member 6",
-      "location": "The Planet Earth",
-      "tagline": "I love Web Dev",
-      "avatar": "/images/avatar.png"
+      "name": "Mahera Furniturewala",
+      "location": "Mumbai, India",
+      "tagline": "Adrenaline Junkie",
+      "avatar": "./images/mahera.png"
     }
   ]
 }
