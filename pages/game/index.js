@@ -1,10 +1,9 @@
-import SingleCard from "../../components/SingleCard";
+import GameBoard from "../../components/GameBoard";
 
 export default function gamePage() {
-    return (
-      <>
-        <div>This is game page</div>
-        <SingleCard></SingleCard>
-      </>
-    );
+  return (
+    <>
+      <GameBoard></GameBoard>
+    </>
+  );
 }
