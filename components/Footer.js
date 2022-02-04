@@ -67,7 +67,7 @@ export default function Footer() {
         </Link>
       </div>
       <div>
-        <p class={classes.copyright}>MLH Fellowship © 2022</p>
+        <p className={classes.copyright}>MLH Fellowship © 2022</p>
       </div>
     </div>
   );

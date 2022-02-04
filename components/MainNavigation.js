@@ -17,6 +17,9 @@ function MainNavigation() {
           <li className="hover:font-bold">
             <Link href="/projects">Projects</Link>
           </li>
+          <li className="hover:font-bold">
+            <Link href="/game">Play</Link>
+          </li>
         </ul>
       </nav>
     </header>
