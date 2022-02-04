@@ -8,11 +8,7 @@ function MyApp({ Component, pageProps, router }) {
   return (
     <>
       <MainNavigation />
-      <AnimatePresence
-        exitBeforeEnter
-        initial={false}
-        onExitComplete={() => window.scrollTo(0, 0)}
-      >
+      <AnimatePresence exitBeforeEnter>
         <Component {...pageProps} key={router.route} />{" "}
       </AnimatePresence>
       <Footer />

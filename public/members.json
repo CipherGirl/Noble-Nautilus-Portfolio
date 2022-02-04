@@ -1,0 +1,41 @@
+{
+  "podName": "Noble Nautilus",
+  "podNumber": "22.1.7",
+  "batch": 5,
+  "season": "Spring",
+  "year": "2022",
+  "program": "MLH Fellowship",
+  "members": [
+    {
+      "name": "Hasna Hena Mow",
+      "location": "Dhaka, Bangladesh",
+      "tagline": "I love Web Dev",
+      "avatar": ""
+    },
+    {
+      "name": "Member 2",
+      "location": "The Planet Earth",
+      "tagline": "I love Web Dev"
+    },
+    {
+      "name": "Member 3",
+      "location": "The Planet Earth",
+      "tagline": "I love Web Dev"
+    },
+    {
+      "name": "Member 4",
+      "location": "The Planet Earth",
+      "tagline": "I love Web Dev"
+    },
+    {
+      "name": "Member 5",
+      "location": "The Planet Earth",
+      "tagline": "I love Web Dev"
+    },
+    {
+      "name": "Member 6",
+      "location": "The Planet Earth",
+      "tagline": "I love Web Dev"
+    }
+  ]
+}
