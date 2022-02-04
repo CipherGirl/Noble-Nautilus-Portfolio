@@ -14,7 +14,10 @@
         "linkein": "khattakdev",
         "github": "khattakdev"
       },
-      "avatar": "./images/arsalan.jpeg"
+      "avatar": "./images/arsalan.jpeg",
+      "key": 1,
+      "lat": 33.6844,
+      "lng": 73.0479
     },
     {
       "name": "Hasna Hena Mow",
@@ -24,13 +27,19 @@
         "linkein": "hasna-hena-mow",
         "github": "CipherGirl"
       },
-      "avatar": "/images/hasna.png"
+      "avatar": "/images/hasna.png",
+      "key": 2,
+      "lat": 23.8103,
+      "lng": 90.4125
     },
     {
       "name": "Dinu Botan",
       "location": "The Planet Earth",
       "tagline": "I love Web Dev",
-      "avatar": "./images/Dinu.ico"
+      "avatar": "./images/Dinu.jpg",
+      "key": 3,
+      "lat": 47.4979,
+      "lng": 19.0402
     },
     {
       "name": "Dani Schuhman",
@@ -40,7 +49,10 @@
       "socials": {
         "linkein": "dani-schuhman",
         "github": "dani8439"
-      }
+      },
+      "key": 4,
+      "lat": 40.0583,
+      "lng": -74.4057
     },
     {
       "name": "Riya Elizabeth John",
@@ -50,13 +62,19 @@
       "socials": {
         "linkein": "riya-elizabeth-john-3b57201ab",
         "github": "Riyabelle25"
-      }
+      },
+      "key": 5,
+      "lat": 21.1702,
+      "lng": 72.8311
     },
     {
       "name": "Mahera Furniturewala",
       "location": "Mumbai, India",
       "tagline": "Adrenaline Junkie",
-      "avatar": "./images/mahera.png"
+      "avatar": "./images/mahera.png",
+      "key": 6,
+      "lat": 19.076,
+      "lng": 72.8777
     }
   ]
 }

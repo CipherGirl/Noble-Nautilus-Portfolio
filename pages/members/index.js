@@ -1,22 +1,8 @@
 import Layout from "../../components/Layout";
 import Map from "../../components/Map";
 import MemberCard from "../../components/MemberCard";
-import Dinu from "../../public/images/Dinu.ico";
 import members from "../../public/members.json";
 import { motion } from "framer-motion";
-
-const location = [
-  {
-    lat: 47.4979,
-    lng: 19.0402,
-    img: Dinu,
-  },
-  {
-    lat: 33.6844,
-    lng: 73.0479,
-    img: Dinu,
-  },
-];
 
 // Animations
 let easing = [0.6, -0.05, 0.01, 0.99];
@@ -46,6 +32,7 @@ const stagger = {
 };
 function MembersPage() {
   const memberList = members.members;
+  console.log("Mmber list: " + memberList[0].key)
   return (
     <>
       <Layout>
@@ -69,7 +56,7 @@ function MembersPage() {
             </motion.div>
           ))}
         </motion.div>
-        <Map location={location} zoomLevel={0}></Map>
+        <Map memberList={memberList} zoomLevel={0}></Map>
       </Layout>
     </>
   );

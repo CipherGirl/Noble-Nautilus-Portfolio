@@ -4,13 +4,13 @@ import classes from "./GameBoard.module.css";
 
 const cardImages = [
   { src: "/images/Dinu.jpg", matched: false },
+  { src: "/images/arsalan.jpeg", matched: false },
   { src: "/images/Dinu.jpg", matched: false },
   { src: "/images/Dinu.jpg", matched: false },
   { src: "/images/Dinu.jpg", matched: false },
-  { src: "/images/Dinu.jpg", matched: false },
-  { src: "/images/hasna.png", matched: false },
-  { src: "/images/hasna.png", matched: false },
-  { src: "/images/hasna.png", matched: false },
+  { src: "/images/dani.jpeg", matched: false },
+  { src: "/images/mahera.png", matched: false },
+  { src: "/images/riya.jpeg", matched: false },
   { src: "/images/hasna.png", matched: false },
   { src: "/images/hasna.png", matched: false },
   { src: "/images/hasna.png", matched: false },
@@ -78,7 +78,9 @@ export default function GameBoard() {
 
   return (
     <div className={classes.App}>
-      <h1 className={classes.h}>Play with us and train your memory!</h1>
+      <h1 className="text-2xl text-center">
+        Play with us and train your memory!
+      </h1>
       <div className={classes.card_grid}>
         {cards.map((card) => (
           <SingleCard
