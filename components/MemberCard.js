@@ -4,7 +4,7 @@ const MemberCard = ({ member }) => {
   return (
     <div className="w-full flex items-center justify-evenly text-xl rounded-xl bg-white p-5 bg-opacity-60 backdrop-filter backdrop-blur-lg">
       <img
-        src="https://cdn-icons-png.flaticon.com/512/147/147144.png"
+        src={member.avatar}
         alt="Avatar"
         style={{ width: "200px" }}
       />

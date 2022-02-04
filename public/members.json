@@ -10,32 +10,37 @@
       "name": "Hasna Hena Mow",
       "location": "Dhaka, Bangladesh",
       "tagline": "I love Web Dev",
-      "avatar": ""
+      "avatar": "/images/hasna.png"
     },
     {
       "name": "Member 2",
       "location": "The Planet Earth",
-      "tagline": "I love Web Dev"
+      "tagline": "I love Web Dev",
+      "avatar": "/images/avatar.png"
     },
     {
       "name": "Member 3",
       "location": "The Planet Earth",
-      "tagline": "I love Web Dev"
+      "tagline": "I love Web Dev",
+      "avatar": "/images/avatar.png"
     },
     {
       "name": "Member 4",
       "location": "The Planet Earth",
-      "tagline": "I love Web Dev"
+      "tagline": "I love Web Dev",
+      "avatar": "/images/avatar.png"
     },
     {
       "name": "Member 5",
       "location": "The Planet Earth",
-      "tagline": "I love Web Dev"
+      "tagline": "I love Web Dev",
+      "avatar": "/images/avatar.png"
     },
     {
       "name": "Member 6",
       "location": "The Planet Earth",
-      "tagline": "I love Web Dev"
+      "tagline": "I love Web Dev",
+      "avatar": "/images/avatar.png"
     }
   ]
 }
