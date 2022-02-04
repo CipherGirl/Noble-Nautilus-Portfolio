@@ -7,10 +7,7 @@ const greatPlaceStyle = {
 };
 
 const LocationPin = ({ image }) => (
-  <div
-    className={classes.pin}
-    style={greatPlaceStyle}
-  >
+  <div className={classes.pin} style={greatPlaceStyle}>
     <img className={classes.image} src={image.src} alt="Image" />
   </div>
 );
@@ -18,7 +15,7 @@ const LocationPin = ({ image }) => (
 export default function Map({ location, zoomLevel }) {
   return (
     <div className={classes.map}>
-      <h2 className={classes.map_h2}>Locations of Pod members</h2>
+      <h2 className="text-2xl text-center">Find Pod Members on The Map</h2>
       <div className={classes.google_map}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyDAO8JZFNKqFL51bkkz042RWNw90ficUbk" }}
@@ -26,7 +23,12 @@ export default function Map({ location, zoomLevel }) {
           defaultZoom={zoomLevel}
         >
           {location.map((loc) => (
-            <LocationPin key={location.loc} lat={loc.lat} lng={loc.lng} image={loc.img} />
+            <LocationPin
+              key={location.loc}
+              lat={loc.lat}
+              lng={loc.lng}
+              image={loc.img}
+            />
           ))}
         </GoogleMapReact>
       </div>
